@@ -22,18 +22,32 @@ Here's a little tip for the system to work its best: make sure the area where em
 So, why go for facial recognition? Well, it solves problems we often face with traditional attendance methods. It's like upgrading from a manual typewriter to a fancy computer. Facial recognition not only saves time and effort but also makes the attendance process smoother and more reliable.
 
 ## Software Dependencies
-##### Step 1: Install C++ Compiler (Visual Studio)
+** Step 1: Install C++ Compiler (Visual Studio)**
 1. Download the Visual Studio Community Edition from Visual Studio Downloads.
 2. Run the installer and select 'Desktop development with C++'.
 3. Allow the installer to download and install the necessary components (This may take some time).
 4. After installation, restart your computer.
 
-##### Step 2: Set Up Python Environment (PyCharm)
+** Step 2: Set Up Python Environment (PyCharm) **
 1. Open your PyCharm project.
 2. Install the required Python packages using the following commands
-   ```
+```
 pip install cmake
 pip install dlib
 pip install face_recognition
 pip install numpy opencv-python
 ```
+** Step 3: Install PyBuilder **
+1. Install PyBuilder using the following command:
+```
+python -m venv venv
+.\venv\Scripts\activate
+pip install pybuilder
+pyb
+pyb --start-project
+```
+2. Build the project using:
+```
+pyb publish
+```
+***You must install it using a virtual environment***
