@@ -23,7 +23,7 @@ So, why go for facial recognition? Well, it solves problems we often face with t
 
 ## Software Dependencies
 **Step 1: Install C++ Compiler (Visual Studio)**
-1. Download the Visual Studio Community Edition from Visual Studio Downloads.
+1. [Download](https://visualstudio.microsoft.com/downloads/)the Visual Studio Community Edition.
 2. Run the installer and select 'Desktop development with C++'.
 3. Allow the installer to download and install the necessary components (This may take some time).
 4. After installation, restart your computer.
