@@ -56,3 +56,23 @@ Begin with the basic requirements, then make sure to meet all the other [needs](
 
 # Documentation 
 ## Git
+
+## Unified Model Language(UML)
+
+## Domain-Driven Design(DDD)
+
+## Metrics
+
+## Clean Code Development
+
+## Build Management
+
+## Continuous Delivery
+
+## Unit Test
+
+## IDE
+
+## DSL
+
+## Functional Programming
