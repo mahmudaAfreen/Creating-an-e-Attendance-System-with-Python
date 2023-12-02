@@ -66,7 +66,14 @@ Begin with the basic requirements, then make sure to meet all the other [needs](
 ## Clean Code Development
 
 ## Build Management
+Build management is a critical aspect of modern software development, especially with the adoption of continuous integration and continuous delivery (CI/CD) practices. It involves collecting, compiling, testing, and deploying software assets to facilitate the release process.
+Ever wondered how software is made and put together? For that one will have to know Build management and there is some amazing way to do so. For this work, I used a cool tool called PyBuilder to make this process super easy. PyBuilder stands out as a nifty tool for automating software builds. Crafted entirely in Python, it focuses on making life easier for Python developers. It plays with the concept of dependency-based programming but adds a cool twist – a powerful plugin system. This feature lets you build life-cycles that are as flexible and robust as those you might find in other big-name tools like Apache Maven and Gradle. It's like having a versatile toolbox for constructing your software in a way that suits you best.
+If I describe it in simple words, it's like a helpful robot that takes care of all the steps – from collecting the pieces of the software to making sure everything works correctly. Or, you can think of it like baking a cake – PyBuilder is the chef who takes care of everything, from gathering ingredients to baking the cake (or in our case, compiling and testing the software).
 
+1.  [build.py](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/build.py): This is the brain of our operation. It tells PyBuilder what to do – like which parts of the software to use and how to assemble them.
+2.  [setup.py](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/setup.py): Think of this as a recipe card. It gives instructions on how the software should be packaged and shared with others.
+3. [pyproject.toml](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/pyproject.toml): This is like a note to PyBuilder. It tells PyBuilder important details about our project, so it knows what tools to use.
+To get started with the building management you can follow the first steps I described in [Software Dependencies](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/tree/main#software-dependencies). If everything is set up successfully one will see the [build](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Unittest.png) is successful once they run **pyb publish** in the cmd. 
 ## Continuous Delivery
 
 ## Unit Test
