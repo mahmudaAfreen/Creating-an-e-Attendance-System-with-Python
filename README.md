@@ -131,6 +131,8 @@ My most used shortcuts are:
 To explore all the shortcuts, we can check [here](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf).
 ## DSL
 DSLs, or special code languages, are like secret codes made for solving specific job-related puzzles. They are short, easy to read, and focus on the kind of problems we find at work. So, if we are used to the kind of stuff we deal with at our job, DSLs make coding feel like a breeze. They are great for making machines do repetitive tasks, sorting out complicated stuff, or letting non-coders use the computer without getting into the nitty-gritty of regular coding languages. 
+
 I even made a cool [weekly routine tracker](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/daily_routine.dsl) using DSL. It's like jotting down what we do each day, and the DSL magic summarizes everything for us. Just run the DSL file with [Python](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/dsl_interpreter.py), and boom, it's done!
+
 **Following cmd:** ```python dsl_interpreter.py daily_routine_tckr.dsl```
 ## Functional Programming
