@@ -64,11 +64,12 @@ Time spent in Prayer this week.
 Time spent in Reading this week.
 Time spent in Walk this week.
 Time spent in study this week.
-Time spent in reading this week.
 Time spent in work this week.
 Time spent in entertainment this week.
 Time spent in Laundry this week.
 Time spent in groceries this week.
+Time spent in cooking this week.
+Time spent in social media this week.
 
 
 
