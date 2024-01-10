@@ -202,8 +202,8 @@ markattendance(name)  # Function takes a name as a parameter
 ```
 Since my main code does not contain all the functions, I wrote another example that showcases the flexibility and expressive power of the functions in performing different operations on a list of numbers.
 
-- [1. Only final data structures](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py) 
-- [2. (mostly) side effect free functions](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py#L5)  
-- [3. Higher order function](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py#L9) 
-- [4. Functions as parameters and return values](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py#L15) 
-- [5. Use closures functions](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py#L23#L13)  
+- [Only final data structures](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py) 
+- [(mostly) side effect free functions](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py#L5)  
+- [Higher order function](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py#L9) 
+- [Functions as parameters and return values](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py#L15) 
+- [Use closures functions](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/AllFunctions.py#L23#L13)  
