@@ -90,6 +90,10 @@ In the [**Domain Driven Design Diagram**](https://github.com/mahmudaAfreen/Creat
 To make things easy to understand, I made a simple [**glossary**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Ubiquitous%20Language.pdf) or we can say ubiquitous language’, a common language that is shared by both the software developers and the business stakeholders. This helps everyone working on the project understand how the software is built and talk about it similarly. This way, everyone involved can communicate and work together more effectively.
 
 ## Metrics
+I prefer SonarCloud to analyze my code because it brings automated, thorough code reviews and early issue detection into my development process. It calculates technical debt, integrates seamlessly into my CI/CD workflow, and supports various languages. The convenience of a cloud-based platform, coupled with robust security features, makes SonarCloud my top choice. Its active community and SonarSource backing add valuable support that sets it apart from other platforms.
+
+Here are all the calculated metrics for my project.
+
 - [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
 - [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
 - [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
