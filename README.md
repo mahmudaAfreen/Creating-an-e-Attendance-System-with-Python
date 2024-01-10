@@ -144,7 +144,7 @@ Secondly, I used [Unittest](https://github.com/mahmudaAfreen/Creating-an-e-Atten
 
 **1. Setting Up for Testing:** First I set up my testing environment using the setUp function. This function added a photo of a person I knew (let's call them 'Test Person') to a list, getting everything ready for my tests.
 
-**2. Checked Attendance Marking:** Next, I wanted to ensure that my attendance marking was working. In the test_markattendance function, I took a picture (like using a webcam), marked the attendance for 'Test Person', and then checked the 'Attendance.csv' file. I verified that the file had two lines - one for the file header and one for the marked attendance of my known person.
+**2. Checked Attendance Marking:** Next, I wanted to ensure that my attendance marking was working. In the test_markattendance function, I took a picture (like using a webcam), marked the attendance for 'Test Person', and then checked the ['Attendance.csv'](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/main/python/ImagesAttendance/Attendance.csv) file. I verified that the file had two lines - one for the file header and one for the marked attendance of my known person.
 
 **3. Tested Face Recognition:** My system was supposed to recognize faces, right? In the test_face_recognition function, I captured a frame from a webcam, looked for faces in that frame, and used some recognition magic. I made sure that when my system saw 'Test Person', it got it right - like saying, "Hey, I know you! You're 'Test Person'!"
 
