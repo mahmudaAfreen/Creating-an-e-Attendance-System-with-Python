@@ -125,17 +125,17 @@ For the test, I used images of different people but got Better results with the 
 
 <img src="https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Train.png" width="400" height="300">      <img src="https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/test.png" width="400" height="300">
 
-Secondly, I used Unittest to make sure everything was working fine. My way of doing that was pretty simple. 
+Secondly, I used [Unittest](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/unittest/python/projectunittest.py) to make sure everything was working fine. My way of doing that was pretty simple. 
 
-**Setting Up for Testing:** First I set up my testing environment using the setUp function. This function added a photo of a person I knew (let's call them 'Test Person') to a list, getting everything ready for my tests.
+**1. Setting Up for Testing:** First I set up my testing environment using the setUp function. This function added a photo of a person I knew (let's call them 'Test Person') to a list, getting everything ready for my tests.
 
-**Checked Attendance Marking** Next, I wanted to ensure that my attendance marking was working. In the test_markattendance function, I took a picture (like using a webcam), marked the attendance for 'Test Person', and then checked the 'Attendance.csv' file. I verified that the file had two lines - one for the file header and one for the marked attendance of my known person.
+**2. Checked Attendance Marking:** Next, I wanted to ensure that my attendance marking was working. In the test_markattendance function, I took a picture (like using a webcam), marked the attendance for 'Test Person', and then checked the 'Attendance.csv' file. I verified that the file had two lines - one for the file header and one for the marked attendance of my known person.
 
-**Tested Face Recognition:** My system was supposed to recognize faces, right? In the test_face_recognition function, I captured a frame from a webcam, looked for faces in that frame, and used some recognition magic. I made sure that when my system saw 'Test Person', it got it right - like saying, "Hey, I know you! You're 'Test Person'!"
+**3. Tested Face Recognition:** My system was supposed to recognize faces, right? In the test_face_recognition function, I captured a frame from a webcam, looked for faces in that frame, and used some recognition magic. I made sure that when my system saw 'Test Person', it got it right - like saying, "Hey, I know you! You're 'Test Person'!"
 
-**Used Modules and Functions:** I didn't build everything from scratch. I borrowed some useful tools from the 'AttendanceProject' module. It was like having a toolbox with some handy gadgets. I used functions like markattendance and variables like classNames from there to make my job easier.
+**4. Used Modules and Functions:** I didn't build everything from scratch. I borrowed some useful tools from the 'AttendanceProject' module. It was like having a toolbox with some handy gadgets. I used functions like markattendance and variables like classNames from there to make my job easier.
 
-**Ran the Tests:** Lastly, when I ran my script, it checked if everything I had written actually worked. It was like pushing a "test" button to ensure my code did what it was supposed to do. If all tests passed, I was in good shape!
+**5. Ran the Tests:** Lastly, when I ran my script, it checked if everything I had written actually worked. It was like pushing a "test" button to ensure my code did what it was supposed to do. If all tests passed, I was in good shape!
 
 In a nutshell, I made sure my attendance system recognized faces correctly, marked attendance properly, and all the tools I used did their jobs.
 
