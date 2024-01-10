@@ -91,6 +91,7 @@ To make things easy to understand, I made a simple [**glossary**](https://github
 
 ## Metrics
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
 ## Clean Code Development
 Following clean code principles in software development is vital. Clean code is easier to read and understand, promoting collaboration and hassle-free maintenance. It enhances efficiency by simplifying issue identification and resolution, reducing the risk of introducing new errors. Importantly, it creates a positive work environment, making development more enjoyable and less stressful.
 There are plenty of ways and principles one can follow in terms of writing code clean. Here are my top preference, 
