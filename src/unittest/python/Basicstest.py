@@ -12,7 +12,7 @@ def get_face_location_and_encoding(image):
     face_encoding = face_recognition.face_encodings(image)[0]
     return face_location, face_encoding
 
-# Function to draw rectangle and text on an image
+# Function to draw rectangles and text on an image
 def draw_rectangle_and_text(image, face_location, color=(255, 0, 255)):
     cv2.rectangle(image, (face_location[3], face_location[0]), (face_location[1], face_location[2]), color, 2)
 
