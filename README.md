@@ -90,8 +90,25 @@ In the [**Domain Driven Design Diagram**](https://github.com/mahmudaAfreen/Creat
 To make things easy to understand, I made a simple [**glossary**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Ubiquitous%20Language.pdf) or we can say ubiquitous language’, a common language that is shared by both the software developers and the business stakeholders. This helps everyone working on the project understand how the software is built and talk about it similarly. This way, everyone involved can communicate and work together more effectively.
 
 ## Metrics
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=bugs)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
 ## Clean Code Development
 Following clean code principles in software development is vital. Clean code is easier to read and understand, promoting collaboration and hassle-free maintenance. It enhances efficiency by simplifying issue identification and resolution, reducing the risk of introducing new errors. Importantly, it creates a positive work environment, making development more enjoyable and less stressful.
 There are plenty of ways and principles one can follow in terms of writing code clean. Here are my top preference, 
