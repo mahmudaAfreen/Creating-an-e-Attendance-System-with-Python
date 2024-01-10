@@ -153,4 +153,9 @@ DSLs, or special code languages, are like secret codes made for solving specific
 I even made a cool [weekly routine tracker](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/daily_routine.dsl) using DSL. It's like jotting down what we do each day, and the DSL magic summarizes everything for us. Just run the DSL file with [Python](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/dsl_interpreter.py), and boom, it's done!
 
 **Following cmd:** ```python dsl_interpreter.py daily_routine_tckr.dsl```
+
 ## Functional Programming
+[Final Data Structures:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L69)
+encodelistknown: This list holds the face encodings of known images.
+ ```# Final Data Structures
+encodelistknown = findencodings(photos)  # List of face encodings for known images```
