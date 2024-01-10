@@ -1,5 +1,7 @@
 # Creating an e-Attendance System with Python
 
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
+
 
 # Overview 
 
