@@ -120,10 +120,20 @@ To get started with the building management one can follow the first steps I des
 ## Continuous Delivery
 
 ## Unit Test
-I was directly trying to do the unit test but it was going all wrong and the true value of the test was coming low where the ideal value is 0.44 and I was getting less than 0.33. After doing some reading, I realized I should do a [basic test](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/unittest/python/Basicstest.py) to see what was going wrong. So, the basic test was giving me a lower value as well. Then I start doing everything from scratch and I end up with a higher value. 
-For the test, I used images of different people but got Better results with the Images of Elon Musk. Because the good quality images of him in JPG/PNG format were freely available online. 
+I was directly trying to do the unit test but it was going all wrong in the testing, the system was not identifying most of the faces of the same person from different angles. After doing some reading, I realized I should do a [basic test](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/unittest/python/Basicstest.py) to see what was going wrong. So, the basic test was giving me a higher True Value and I realized I should start from scratch here must be an error in my environment since I tried all possible ways to fix it.
+For the test, I used images of different people but got Better results with the Images of Elon Musk. Because the good quality images of him in JPG/PNG format were freely available online. once I got a lower True value in the basic test then my unit tests were also working well. 
 
 <img src="https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Train.png" width="400" height="300">      <img src="https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/test.png" width="400" height="300">
+
+Secondly, I used Unittest to make sure everything was working fine. My way of doing that was pretty simple. 
+**Setting Up for Testing:** First I set up my testing environment using the setUp function. This function added a photo of a person I knew (let's call them 'Test Person') to a list, getting everything ready for my tests.
+**Checked Attendance Marking** Next, I wanted to ensure that my attendance marking was working. In the test_markattendance function, I took a picture (like using a webcam), marked the attendance for 'Test Person', and then checked the 'Attendance.csv' file. I verified that the file had two lines - one for the file header and one for the marked attendance of my known person.
+**Tested Face Recognition:** My system was supposed to recognize faces, right? In the test_face_recognition function, I captured a frame from a webcam, looked for faces in that frame, and used some recognition magic. I made sure that when my system saw 'Test Person', it got it right - like saying, "Hey, I know you! You're 'Test Person'!"
+**Used Modules and Functions:** I didn't build everything from scratch. I borrowed some useful tools from the 'AttendanceProject' module. It was like having a toolbox with some handy gadgets. I used functions like markattendance and variables like classNames from there to make my job easier.
+**Ran the Tests:** Lastly, when I ran my script, it checked if everything I had written actually worked. It was like pushing a "test" button to ensure my code did what it was supposed to do. If all tests passed, I was in good shape!
+
+In a nutshell, I made sure my attendance system recognized faces correctly, marked attendance properly, and all the tools I used did their jobs.
+
 ## IDE
 I used PyCharm 2022.2.4 (Community Edition) using Anaconda Python 3.9 as an interpreter. I find it very useful to use it this way for an easier environment and package management even if I decide to use other tools like Jupyter Notebook or Google Collab, Anaconda as an interpreter will save time not having to install save packages everywhere. The integration with Git using this IDE was straightforward forward and I was able to commit, pull, and push updates without facing an issue, it would be interesting to start trying it with multiple branches for more complex projects. Another feature I like very much about this IDE is the new package manager for PyCharm that allows you to install and update packages within a few clicks, no pip is needed. 
 
