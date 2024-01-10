@@ -58,7 +58,7 @@ Begin with the basic requirements, then make sure to meet all the other [needs](
 
 # Documentation 
 ## Git
-
+To do frequent commits, push, merging, and other operations I used git. The record of my git activity can be found in the [git contribution](https://github.com/mahmudaAfreen). 
 ## Unified Model Language(UML)
 I can relate UML to building a house. The first thing will be explaining the ideas to different people—like architects, builders, and decorators. UML is like a set of drawings and symbols that make it easy for everyone to understand the ideas about how the house should look, what it should do, and how different parts will work together.
 
