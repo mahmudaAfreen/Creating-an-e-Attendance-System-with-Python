@@ -57,39 +57,39 @@ pyb publish
 Begin with the basic requirements, then make sure to meet all the other [needs](https://pages.github.com/](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/main/python/requirement.txt)https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/main/python/requirement.txt) to finish the project successfully.
 
 # Documentation 
-## Git
+## 1. Git
 To do frequent commits, push, merging, and other operations I used git. The record of my git activity can be found in the [git contribution](https://github.com/mahmudaAfreen). 
-## Unified Model Language(UML)
+## 2. Unified Model Language(UML)
 I can relate UML to building a house. The first thing will be explaining the ideas to different people—like architects, builders, and decorators. UML is like a set of drawings and symbols that make it easy for everyone to understand the ideas about how the house should look, what it should do, and how different parts will work together.
 
 In the world of software, UML is like a universal language that developers, designers, and other people involved in building software can use to communicate and share their thoughts. It's a way to make sure everyone is on the same page when it comes to designing and talking about software.
 
 #### UML Diagrams Presented in this Repository
-1.	[**Activity Diagram:**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Activity%20Diagram.png)
+2.1.	[**Activity Diagram:**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Activity%20Diagram.png)
 An activity diagram provides a comprehensive look at how a system behaves by illustrating the sequence of actions in a process. It helps us follow the flow and connections between activities, aiding in the understanding of activity order and dependencies. This diagram is a valuable tool for gaining insight into the dynamics of the system, contributing to a holistic understanding of how various activities interrelate. In simpler terms, it serves as a helpful guide for comprehending how different activities work together to make the system function cohesively.
 
-2.	[**Sequence Diagram:**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Sequence%20diagram.jpg)
+2.2.	[**Sequence Diagram:**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Sequence%20diagram.jpg)
 In a sequence diagram, we witness a play-by-play conversation among different objects in a software system. Each object has a "lifeline," and this diagram acts like a visual script, revealing how these objects talk to each other over time. It's akin to observing a dynamic chat between various parts of the software, providing a clear view of when and how these exchanges happen.
 Simply put, a sequence diagram is a visual story that unfolds the dialogue between software objects, giving us a snapshot of their interactions and timing.
 
-3.	[**Use Case Diagram:**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Use%20Case%20Diagram.jpg)
+2.3.	[**Use Case Diagram:**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Use%20Case%20Diagram.jpg)
 A use case diagram paints a broad picture of a system's major functions and what it aims to achieve. It acts like a map, highlighting the interactions between the system and the external players involved. By showcasing use cases (what the system does) and actors (external participants), it emphasizes the external interactions and functions rather than delving into the inner workings of the system. It's like a visual guide that outlines the system's goals and how outside elements connect with it.
 
-4.	[**Component Diagram:**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Component%20Diagram.jpg)
+2.4.	[**Component Diagram:**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Component%20Diagram.jpg)
 A component diagram is like a blueprint that reveals the different building blocks that make up a project. It showcases the various components that work together to create the entire system. Think of it as a visual guide highlighting the project's structural aspects. This diagram helps us understand how the different parts fit together to form a cohesive whole, making it particularly useful for visualizing the project's overall structure.
 
-5. [**Future Work Component Diagram**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Component%20Diagram-Future%20work.jpg)
+2.5. [**Future Work Component Diagram**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Component%20Diagram-Future%20work.jpg)
 Consideration for future work includes the enhancement of the Component Diagram to showcase detailed components, providing a more nuanced insight into the system's architecture. Investment in this aspect would contribute to a more thorough understanding of the project's structure and interdependencies.
 
 
-## Domain-Driven Design(DDD)
+## 3. Domain-Driven Design(DDD)
 I considered it as a strategy aimed at improving the quality of software by aligning it more closely with the business needs it serves. At its core, DDD is about navigating complexity by placing the focus of software development on the ‘domain’, or the specific business context within which the software operates. It advocates for the use of a ‘ubiquitous language’, a common language that is shared by both the software developers and the business stakeholders.
 
 In the [**Domain Driven Design Diagram**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/DDD%20Diagram.jpg), I drew out all the important parts of the application's problems and goals. This is like the basic plan for what we want the software to do. Some parts are already done, and some are planned for the future, depending on getting funds.
 
 To make things easy to understand, I made a simple [**glossary**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Ubiquitous%20Language.pdf) or we can say ubiquitous language’, a common language that is shared by both the software developers and the business stakeholders. This helps everyone working on the project understand how the software is built and talk about it similarly. This way, everyone involved can communicate and work together more effectively.
 
-## Metrics
+## 4. Metrics
 I prefer SonarCloud to analyze my code because it brings automated, thorough code reviews and early issue detection into my development process. It calculates technical debt, integrates seamlessly into my CI/CD workflow, and supports various languages. The convenience of a cloud-based platform, coupled with robust security features, makes SonarCloud my top choice. Its active community and SonarSource backing add valuable support that sets it apart from other platforms.
 
 Here are all the calculated metrics for my project.
@@ -104,23 +104,23 @@ Here are all the calculated metrics for my project.
 - [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
 - [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
 - [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
-## Clean Code Development
+## 5. Clean Code Development
 Following clean code principles in software development is vital. Clean code is easier to read and understand, promoting collaboration and hassle-free maintenance. It enhances efficiency by simplifying issue identification and resolution, reducing the risk of introducing new errors. Importantly, it creates a positive work environment, making development more enjoyable and less stressful.
 There are plenty of ways and principles one can follow in terms of writing code clean. Here are my top preference, 
-1. **Descriptive names:** The names of variables and classes should be descriptive. They should explain the intentions, inform the purpose they exist for, the role they play, and the way they should be used.
-2. **Names should describe side effects:** The name you choose should describe what a given method, variable or class does. For example, if a function is created to search for an object and - in the case of not finding it - create a new one, it is better to use the name findOrCreate instead of just find.
-3. **Always delete commented-out code:** It's essential to delete commented-out code. Such code confuses readers, messes up the code, and disrupts understanding. Over time, it becomes outdated and loses meaning. Leaving it creates uncertainty, as future readers may hesitate to remove it without knowing its significance.
-4. **DRY - the “Don’t Repeat Yourself”:** It advises against repeating code in software development. Copy-pasting the same or similar code in different spots not only makes it longer but also means changing it in multiple places for updates, raising the chance of errors. The solution? Put duplicate code in a separate method, or consider using polymorphism or design patterns in specific situations.
-5. **Code classes should have a single responsibility:** If a class is responsible for more than one area in the application, it can lead to problems in the future, e.i. when introducing changes in one area, we may mess up something in another, seemingly unrelated one.
-6. **Format and Syntax:** Keeping the same look and style in the code is crucial for clean code. It makes the code easy to read and understand. Consistent formatting lets developers spot patterns, making it simpler to fix issues, keep things up-to-date, and handle the code over time. It also reduces mistakes because everyone follows the same rules.
-7. **Conciseness vs Clarity:** While it's important to keep code concise to improve its readability and maintainability, it's equally important to ensure that the code is clear and easy to understand. Writing overly concise code can lead to confusion and errors, and can make the code difficult to work with for other developers.
-8. **Reusability:** Code reusability is a fundamental concept in software engineering that refers to the ability of code to be used multiple times without modification. The importance of code reusability lies in the fact that it can greatly improve the efficiency and productivity of software development by reducing the amount of code that needs to be written and tested.
-9. **Clear Flow of Execution:** Having a clear flow of execution is essential for writing clean code because it makes the code easier to read, understand, and maintain. Code that follows a clear and logical structure is less prone to errors, easier to modify and extend, and more efficient in terms of time and resources.
-10. **Documentation:** Documentation is an essential part of writing clean code. Proper documentation not only helps the developer who wrote the code understand it better in the future but also makes it easier for other developers to read and understand the codebase. When code is well-documented, it can save time and effort in debugging and maintaining the code.
+**5.1. Descriptive names:** The names of variables and classes should be descriptive. They should explain the intentions, inform the purpose they exist for, the role they play, and the way they should be used.
+**5.2. Names should describe side effects:** The name you choose should describe what a given method, variable or class does. For example, if a function is created to search for an object and - in the case of not finding it - create a new one, it is better to use the name findOrCreate instead of just find.
+**5.3. Always delete commented-out code:** It's essential to delete commented-out code. Such code confuses readers, messes up the code, and disrupts understanding. Over time, it becomes outdated and loses meaning. Leaving it creates uncertainty, as future readers may hesitate to remove it without knowing its significance.
+**5.4. DRY - the “Don’t Repeat Yourself”:** It advises against repeating code in software development. Copy-pasting the same or similar code in different spots not only makes it longer but also means changing it in multiple places for updates, raising the chance of errors. The solution? Put duplicate code in a separate method, or consider using polymorphism or design patterns in specific situations.
+**5.5. Code classes should have a single responsibility:** If a class is responsible for more than one area in the application, it can lead to problems in the future, e.i. when introducing changes in one area, we may mess up something in another, seemingly unrelated one.
+**5.6. Format and Syntax:** Keeping the same look and style in the code is crucial for clean code. It makes the code easy to read and understand. Consistent formatting lets developers spot patterns, making it simpler to fix issues, keep things up-to-date, and handle the code over time. It also reduces mistakes because everyone follows the same rules.
+**5.7. Conciseness vs Clarity:** While it's important to keep code concise to improve its readability and maintainability, it's equally important to ensure that the code is clear and easy to understand. Writing overly concise code can lead to confusion and errors, and can make the code difficult to work with for other developers.
+**5.8. Reusability:** Code reusability is a fundamental concept in software engineering that refers to the ability of code to be used multiple times without modification. The importance of code reusability lies in the fact that it can greatly improve the efficiency and productivity of software development by reducing the amount of code that needs to be written and tested.
+**5.9. Clear Flow of Execution:** Having a clear flow of execution is essential for writing clean code because it makes the code easier to read, understand, and maintain. Code that follows a clear and logical structure is less prone to errors, easier to modify and extend, and more efficient in terms of time and resources.
+**5.10. Documentation:** Documentation is an essential part of writing clean code. Proper documentation not only helps the developer who wrote the code understand it better in the future but also makes it easier for other developers to read and understand the codebase. When code is well-documented, it can save time and effort in debugging and maintaining the code.
 
 This is my [**cheat sheet**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Cheat%20Sheet.pdf) for important code descriptions in Python. It's detailed to ensure better understanding since the entire project is written in Python.
 
-## Build Management
+## 6. Build Management
 Build management is a critical aspect of modern software development, especially with the adoption of continuous integration and continuous delivery (CI/CD) practices. It involves collecting, compiling, testing, and deploying software assets to facilitate the release process.
 
 Ever wondered how software is made and put together? For that one will have to know Build management and there is some amazing way to do so. For this work, I used a cool tool called PyBuilder to make this process super easy. PyBuilder stands out as a nifty tool for automating software builds. Crafted entirely in Python, it focuses on making life easier for Python developers. It plays with the concept of dependency-based programming but adds a cool twist – a powerful plugin system. This feature lets you build life-cycles that are as flexible and robust as those you might find in other big-name tools like Apache Maven and Gradle. It's like having a versatile toolbox for constructing your software in a way that suits you best.
@@ -132,9 +132,9 @@ If I describe it in simple words, it's like a helpful robot that takes care of a
 3. [pyproject.toml](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/pyproject.toml): This is like a note to PyBuilder. It tells PyBuilder important details about our project, so it knows what tools to use.
    
 To get started with the building management one can follow the first steps I described in [Software Dependencies](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/tree/main#software-dependencies). If everything is set up successfully one will see the [build](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Unittest.png) is successful once they run **pyb publish** in the cmd. 
-## Continuous Delivery
+## 7. Continuous Delivery
 
-## Unit Test
+## 8. Unit Test
 I was directly trying to do the unit test but it was going all wrong in the testing, the system was not identifying most of the faces of the same person from different angles. After doing some reading, I realized I should do a [basic test](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/unittest/python/Basicstest.py) to see what was going wrong. So, the basic test was giving me a higher True Value and I realized I should start from scratch there must be an error in my environment since I tried all possible ways to fix it.
 For the test, I used images of different people but got Better results with the Images of Elon Musk. Because the good quality images of him in JPG/PNG format were freely available online. once I got a lower True value in the basic test then my unit tests were also working well. 
 
@@ -142,19 +142,19 @@ For the test, I used images of different people but got Better results with the 
 
 Secondly, I used [Unittest](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/unittest/python/projectunittest.py) to make sure everything was working fine. My way of doing that was pretty simple. 
 
-**1. Setting Up for Testing:** First I set up my testing environment using the setup function. This function added a photo of a person I knew (let's call them 'Test Person') to a list, getting everything ready for my tests.
+**8.1. Setting Up for Testing:** First I set up my testing environment using the setup function. This function added a photo of a person I knew (let's call them 'Test Person') to a list, getting everything ready for my tests.
 
-**2. Checked Attendance Marking:** Next, I wanted to ensure that my attendance marking was working. In the test_markattendance function, I took a picture (like using a webcam), marked the attendance for 'Test Person', and then checked the ['Attendance.csv'](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Attendance.csv) file. I verified that the file had two lines - one for the file header and one for the marked attendance of my known person.
+**8.2. Checked Attendance Marking:** Next, I wanted to ensure that my attendance marking was working. In the test_markattendance function, I took a picture (like using a webcam), marked the attendance for 'Test Person', and then checked the ['Attendance.csv'](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Attendance.csv) file. I verified that the file had two lines - one for the file header and one for the marked attendance of my known person.
 
-**3. Tested Face Recognition:** My system was supposed to recognize faces, right? In the test_face_recognition function, I captured a frame from a webcam, looked for faces in that frame, and used some recognition magic. I made sure that when my system saw 'Test Person', it got it right - like saying, "Hey, I know you! You're 'Test Person'!"
+**8.3. Tested Face Recognition:** My system was supposed to recognize faces, right? In the test_face_recognition function, I captured a frame from a webcam, looked for faces in that frame, and used some recognition magic. I made sure that when my system saw 'Test Person', it got it right - like saying, "Hey, I know you! You're 'Test Person'!"
 
-**4. Used Modules and Functions:** I didn't build everything from scratch. I borrowed some useful tools from the 'AttendanceProject' module. It was like having a toolbox with some handy gadgets. I used functions like markattendance and variables like classNames from there to make my job easier.
+**8.4. Used Modules and Functions:** I didn't build everything from scratch. I borrowed some useful tools from the 'AttendanceProject' module. It was like having a toolbox with some handy gadgets. I used functions like markattendance and variables like classNames from there to make my job easier.
 
-**5. Ran the Tests:** Lastly, when I ran my script, it checked if everything I had written actually worked. It was like pushing a "test" button to ensure my code did what it was supposed to do. If all tests passed, I was in good shape!
+**8.5. Ran the Tests:** Lastly, when I ran my script, it checked if everything I had written actually worked. It was like pushing a "test" button to ensure my code did what it was supposed to do. If all tests passed, I was in good shape!
 
 In a nutshell, I made sure my attendance system recognized faces correctly, marked attendance properly, and all the tools I used did their jobs.
 
-## IDE
+## 9. IDE
 I used PyCharm 2022.2.4 (Community Edition) using Anaconda Python 3.9 as an interpreter. I find it very useful to use it this way for an easier environment and package management even if I decide to use other tools like Jupyter Notebook or Google Collab, Anaconda as an interpreter will save time not having to install save packages everywhere. The integration with Git using this IDE was straightforward forward and I was able to commit, pull, and push updates without facing an issue, it would be interesting to start trying it with multiple branches for more complex projects. Another feature I like very much about this IDE is the new package manager for PyCharm that allows you to install and update packages within a few clicks, no pip is needed. 
 
 My most used shortcuts are:
@@ -162,14 +162,14 @@ My most used shortcuts are:
 2. Ctrl + Shift + C to cpy document path
 3. Alt + Shift + F9 to run selected
 To explore all the shortcuts, we can check [here](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf).
-## DSL
+## 10. DSL
 DSLs, or special code languages, are like secret codes made for solving specific job-related puzzles. They are short, easy to read, and focus on the kind of problems we find at work. So, if we are used to the kind of stuff we deal with at our job, DSLs make coding feel like a breeze. They are great for making machines do repetitive tasks, sorting out complicated stuff, or letting non-coders use the computer without getting into the nitty-gritty of regular coding languages. 
 
 I even made a cool [weekly routine tracker](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/daily_routine.dsl) using DSL. It's like jotting down what we do each day, and the DSL magic summarizes everything for us. Just run the DSL file with [Python](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/dsl_interpreter.py), and boom, it's done!
 
 **Following cmd:** ```python dsl_interpreter.py daily_routine_tckr.dsl```
 
-## Functional Programming
+## 11. Functional Programming
 Functional Programming benefits: Immutability, pure functions, readability, predictable code, easy debugging, and concurrency management, enhancing maintainability and reliability in face recognition. I have tried to use all the functions but I could not because of the structure of my project. However, I used most of them simply, these are:
 
 [1. Final Data Structures:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L69) `encodelistknown` This list holds the face encodings of known images.
