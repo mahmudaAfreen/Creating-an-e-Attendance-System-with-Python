@@ -172,18 +172,18 @@ I even made a cool [weekly routine tracker](https://github.com/mahmudaAfreen/Cre
 ## 11. Functional Programming
 Functional Programming benefits: Immutability, pure functions, readability, predictable code, easy debugging, and concurrency management, enhancing maintainability and reliability in face recognition. I have tried to use all the functions but I could not because of the structure of my project. However, I used most of them simply, these are:
 
-[1. Final Data Structures:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L69) `encodelistknown` This list holds the face encodings of known images.
+[11.1. Final Data Structures:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L69) `encodelistknown` This list holds the face encodings of known images.
 
 ```encodelistknown = findencodings(photos)  # List of face encodings for known images```
 
-[2. (Mostly) Side-Effect-Free Functions:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L31) ´findencodings:´ This function is a higher-order function since it takes a list (photos) and applies the face_recognition.face_encodings function to each element.
+[11.2. (Mostly) Side-Effect-Free Functions:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L31) ´findencodings:´ This function is a higher-order function since it takes a list (photos) and applies the face_recognition.face_encodings function to each element.
 
  ```
 def findencodings(photos):
     # ... (unchanged code)
     return cdata  # List of face encodings for the provided images
 ```
- [3. Use of Higher-Order Functions:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L31) `findencodings:` This function is mostly side-effect-free. It takes a list of images, processes each image to find face encodings, and returns a list of these encodings.
+ [11.3. Use of Higher-Order Functions:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L31) `findencodings:` This function is mostly side-effect-free. It takes a list of images, processes each image to find face encodings, and returns a list of these encodings.
  
   ```
 def findencodings(photos):
@@ -193,7 +193,7 @@ def findencodings(photos):
 
 ```
  
-[4. Functions as Parameters and Return Values:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L69#L103)  ´findencodings:´ Takes a list of images as a parameter and returns a list of face encodings. ´markattendance:´ Takes a name as a parameter and marks attendance.
+[11.4. Functions as Parameters and Return Values:](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/target/dist/facerecognation-1.0.dev0/attendanceproject.py#L69#L103)  ´findencodings:´ Takes a list of images as a parameter and returns a list of face encodings. ´markattendance:´ Takes a name as a parameter and marks attendance.
 
 ```
 encodelistknown = findencodings(photos)  # Function returns a list of face encodings
