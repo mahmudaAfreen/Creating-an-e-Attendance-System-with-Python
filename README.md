@@ -106,7 +106,7 @@ Here are all the calculated metrics for my project.
 - [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=mahmudaAfreen_Creating-an-e-Attendance-System-with-Python)
 ## 5. Clean Code Development
 Following clean code principles in software development is vital. Clean code is easier to read and understand, promoting collaboration and hassle-free maintenance. It enhances efficiency by simplifying issue identification and resolution, reducing the risk of introducing new errors. Importantly, it creates a positive work environment, making development more enjoyable and less stressful.
-There are plenty of ways and principles one can follow in terms of writing code clean. Here are my top preference, 
+There are plenty of ways and principles one can follow in terms of writing code clean. Here are my top preferences that i used in my [main](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/main/python/AttendanceProject.py) , [basictest](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/unittest/python/Basicstest.py) , and in [unittest](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/unittest/python/projectunittest.py)
 
 **5.1. Descriptive names:** The names of variables and classes should be descriptive. They should explain the intentions, inform the purpose they exist for, the role they play, and the way they should be used.
 
