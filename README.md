@@ -145,13 +145,13 @@ To get started with the building management one can follow the first steps I des
 ## 7. Continuous Delivery
 This [YAML](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/python-package.yml) file sets up a continuous delivery pipeline using GitHub Actions. It triggers on pushes to the main branch, and then runs a series of steps:
 
-- 7.1 Set up the Python environment.
-- 7.2 Check out the repository.
-- 7.3 Installs dependencies, including flake8 and pybuilder.
-- 7.4 Lints the code using flake8.
-- 7.5 Builds the project using PyBuilder.
-- 7.6 Executes any post-build actions.
-- 7.8 Completes the job with final actions or notifications.
+- Set up the Python environment.
+- Check out the repository.
+- Installs dependencies, including flake8 and pybuilder.
+- Lints the code using flake8.
+- Builds the project using PyBuilder.
+- Executes any post-build actions.
+- Completes the job with final actions or notifications.
 
 One may need to adjust the Python version, branch name, and specific commands according to the project's requirements.
 
