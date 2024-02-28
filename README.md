@@ -143,6 +143,17 @@ If I describe it in simple words, it's like a helpful robot that takes care of a
    
 To get started with the building management one can follow the first steps I described in [Software Dependencies](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/tree/main#software-dependencies). If everything is set up successfully one will see the [build](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Unittest.png) is successful once they run **pyb publish** in the cmd. 
 ## 7. Continuous Delivery
+This [YAML](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/python-package.yml) file sets up a continuous delivery pipeline using GitHub Actions. It triggers on pushes to the main branch, and then runs a series of steps:
+
+7.1 Set up the Python environment.
+7.2 Check out the repository.
+7.3 Installs dependencies, including flake8 and pybuilder.
+7.4 Lints the code using flake8.
+7.5 Builds the project using PyBuilder.
+7.6 Executes any post-build actions.
+7.8 Completes the job with final actions or notifications.
+
+One may need to adjust the Python version, branch name, and specific commands according to the project's requirements.
 
 ## 8. Unit Test
 I was directly trying to do the unit test but it was going all wrong in the testing, the system was not identifying most of the faces of the same person from different angles. After doing some reading, I realized I should do a [basic test](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/src/unittest/python/Basicstest.py) to see what was going wrong. So, the basic test was giving me a higher True Value and I realized I should start from scratch there must be an error in my environment since I tried all possible ways to fix it.
