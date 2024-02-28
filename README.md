@@ -107,15 +107,25 @@ Here are all the calculated metrics for my project.
 ## 5. Clean Code Development
 Following clean code principles in software development is vital. Clean code is easier to read and understand, promoting collaboration and hassle-free maintenance. It enhances efficiency by simplifying issue identification and resolution, reducing the risk of introducing new errors. Importantly, it creates a positive work environment, making development more enjoyable and less stressful.
 There are plenty of ways and principles one can follow in terms of writing code clean. Here are my top preference, 
+
 **5.1. Descriptive names:** The names of variables and classes should be descriptive. They should explain the intentions, inform the purpose they exist for, the role they play, and the way they should be used.
+
 **5.2. Names should describe side effects:** The name you choose should describe what a given method, variable or class does. For example, if a function is created to search for an object and - in the case of not finding it - create a new one, it is better to use the name findOrCreate instead of just find.
+
 **5.3. Always delete commented-out code:** It's essential to delete commented-out code. Such code confuses readers, messes up the code, and disrupts understanding. Over time, it becomes outdated and loses meaning. Leaving it creates uncertainty, as future readers may hesitate to remove it without knowing its significance.
+
 **5.4. DRY - the “Don’t Repeat Yourself”:** It advises against repeating code in software development. Copy-pasting the same or similar code in different spots not only makes it longer but also means changing it in multiple places for updates, raising the chance of errors. The solution? Put duplicate code in a separate method, or consider using polymorphism or design patterns in specific situations.
+
 **5.5. Code classes should have a single responsibility:** If a class is responsible for more than one area in the application, it can lead to problems in the future, e.i. when introducing changes in one area, we may mess up something in another, seemingly unrelated one.
+
 **5.6. Format and Syntax:** Keeping the same look and style in the code is crucial for clean code. It makes the code easy to read and understand. Consistent formatting lets developers spot patterns, making it simpler to fix issues, keep things up-to-date, and handle the code over time. It also reduces mistakes because everyone follows the same rules.
+
 **5.7. Conciseness vs Clarity:** While it's important to keep code concise to improve its readability and maintainability, it's equally important to ensure that the code is clear and easy to understand. Writing overly concise code can lead to confusion and errors, and can make the code difficult to work with for other developers.
+
 **5.8. Reusability:** Code reusability is a fundamental concept in software engineering that refers to the ability of code to be used multiple times without modification. The importance of code reusability lies in the fact that it can greatly improve the efficiency and productivity of software development by reducing the amount of code that needs to be written and tested.
+
 **5.9. Clear Flow of Execution:** Having a clear flow of execution is essential for writing clean code because it makes the code easier to read, understand, and maintain. Code that follows a clear and logical structure is less prone to errors, easier to modify and extend, and more efficient in terms of time and resources.
+
 **5.10. Documentation:** Documentation is an essential part of writing clean code. Proper documentation not only helps the developer who wrote the code understand it better in the future but also makes it easier for other developers to read and understand the codebase. When code is well-documented, it can save time and effort in debugging and maintaining the code.
 
 This is my [**cheat sheet**](https://github.com/mahmudaAfreen/Creating-an-e-Attendance-System-with-Python/blob/main/Work%20process/Cheat%20Sheet.pdf) for important code descriptions in Python. It's detailed to ensure better understanding since the entire project is written in Python.
